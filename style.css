@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topics, .subtopics, .content {
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+.selected {
+    background-color: yellow;
+}
